@@ -1,0 +1,90 @@
+# Core CLI tools
+brew "git"
+brew "wget"
+brew "curl"
+brew "tree"
+brew "ripgrep"
+brew "fzf"
+brew "gnupg"
+brew "jq"
+brew "tmux"
+brew "telnet"
+
+# Build & dev tools
+brew "automake"
+brew "ccache"
+brew "cmake"
+brew "ninja"
+brew "pkgconf"
+brew "uv"
+
+# Cloud / infra
+brew "azure/azd/azd"
+brew "azure/functions/azure-functions-core-tools@4"
+brew "hashicorp/tap/terraform"
+brew "hashicorp/tap/terraform-ls"
+brew "opentofu"
+brew "terraformer"
+brew "tflint"
+brew "aztfexport"
+
+# Databases / data
+brew "microsoft/mssql-release/mssql-tools18"
+brew "postgresql@17"
+brew "parquet-cli"
+
+# Programming
+brew "zsh"
+brew "nvm"
+brew "pipx"
+brew "thefuck"
+brew "broot"
+brew "ollama"
+brew "llm"
+brew "tabbyml/tabby/tabby"
+
+# Languages
+brew "rustup-init"
+brew "go"
+brew "python@3.11"
+brew "python@3.12"
+brew "python@3.13"
+brew "r"
+brew "openjdk"
+brew "openjdk@11"
+brew "dotnet"
+brew "mono"
+brew "node"
+brew "yarn"
+
+# Misc tools
+brew "colima"
+brew "podman"
+brew "docker"
+brew "dfu-util"
+brew "ffmpeg"
+brew "htpdate"
+brew "icu4c@76"
+brew "jmeter"
+brew "lazygit"
+brew "libtensorflow"
+brew "mlx"
+brew "pandoc"
+
+# GUI casks
+cask "iterm2"
+cask "visual-studio-code"
+cask "google-chrome"
+cask "slack"
+cask "spotify"
+cask "bleunlock"
+cask "bruno"
+cask "git-credential-manager"
+cask "miniconda"
+cask "podman-desktop"
+cask "vagrant"
+cask "orbstack"
+
+# Fonts
+tap "homebrew/cask-fonts"
+cask "font-meslo-lg-nerd-font"
